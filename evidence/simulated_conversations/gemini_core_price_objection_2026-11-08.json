@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "fictional_client_advisor_test",
+  "fictional_data": true,
+  "input": {
+    "request_id": "CORE-001",
+    "brand_id": "lanxu",
+    "scenario": "price_objection",
+    "reference_time": "2026-11-03T14:00:00+08:00",
+    "client": {
+      "id": "fictional-client-001",
+      "preferred_name": "周女士",
+      "preferences": [
+        "通勤",
+        "低调设计",
+        "肩背"
+      ],
+      "contact_permission": "allowed"
+    },
+    "conversation_history": [
+      {
+        "speaker": "advisor",
+        "content": "您上次关注的云影肩包，您更想了解哪方面？",
+        "timestamp": "2026-11-03T13:55:00+08:00"
+      },
+      {
+        "speaker": "client",
+        "content": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？",
+        "timestamp": "2026-11-03T13:58:00+08:00"
+      }
+    ],
+    "products": [
+      {
+        "id": "LX-P001",
+        "name": "云影肩包",
+        "price": 18000,
+        "currency": "CNY",
+        "material": "全粒面小牛皮",
+        "color": "墨灰",
+        "carry_options": [
+          "肩背"
+        ]
+      }
+    ],
+    "scenario_context": {
+      "target_product_id": "LX-P001",
+      "objection_type": "discount_request",
+      "objection_text": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？"
+    }
+  },
+  "candidate_replies": [
+    {
+      "id": "option_1",
+      "text": "周女士您好，感谢您对云影肩包的关注。该款采用全粒面小牛皮材质，支持肩背方式，售价为18000 CNY。我目前无法承诺额外折扣，如您需要进一步了解细节以判断是否符合您的通勤需求，欢迎随时告知。"
+    },
+    {
+      "id": "option_2",
+      "text": "周女士您好，理解您对价格的顾虑。云影肩包的正式价格为18000 CNY，确实需要综合考量。我很遗憾目前无法提供额外折扣。若您想更详细了解墨灰色的质感或其肩背设计是否适配您的日常习惯，我可以为您做进一步介绍。"
+    },
+    {
+      "id": "option_3",
+      "text": "周女士您好，关于您对云影肩包18000 CNY价格的反馈，我目前无法为您申请额外折扣。如果暂未决定，您可以先将这款墨灰色肩背款放入备选，若未来有更多疑问或想预约试背，欢迎随时联系我。"
+    }
+  ],
+  "generation": {
+    "source": "live",
+    "provider": "gemini",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta",
+    "model": "gemini-3.1-flash-lite",
+    "response_id": "P8_vapKBOryKytMP8b69-Q0",
+    "run_id": "20261108T012415064609Z_a063e38f6ae9",
+    "recorded_at": "2026-11-08T01:24:15.067044+00:00",
+    "tool_version": "0.3.1",
+    "prompt_version": "1.1.0",
+    "source_sha256": "52648b3d758896433cf65cc1391a502482d8fd81b3cb05b27a5dbd75b29c096a",
+    "input_sha256": "3dac261df65f0add2156a3bf6c7763471349ce2766894e1cab123d8ffdb5aa34",
+    "raw_response_content_sha256": "65c142b3099009c8b0063d5adbd559d12775a2e66043a8f09928941d68c394a6",
+    "original_file_sha256": {
+      "input.json": "a8f12af0abde12b469c0a9cf25d8f966eacca764c413a88cb30de7d8272b2e21",
+      "attempt_01.json": "62993e26ba680bfca3868c3e4094460c10f052b84f18463c5b9e2b36d1c9ab50",
+      "result.json": "12d6ed05b99f8a129bea5725e41f1531fa1b995109081ddd46c06c6c0d21a32c"
+    }
+  },
+  "validation": {
+    "original_status": "success",
+    "original_error_code": null,
+    "original_errors": [],
+    "accepted": true,
+    "acceptance_basis": "automated_schema_and_business_rules_only",
+    "human_review": "pending",
+    "sent_to_client": false
+  }
+}

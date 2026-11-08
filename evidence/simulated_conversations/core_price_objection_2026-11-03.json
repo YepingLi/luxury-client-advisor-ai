@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "fictional_client_advisor_test",
+  "fictional_data": true,
+  "input": {
+    "request_id": "CORE-001",
+    "brand_id": "lanxu",
+    "scenario": "price_objection",
+    "reference_time": "2026-11-03T14:00:00+08:00",
+    "client": {
+      "id": "fictional-client-001",
+      "preferred_name": "周女士",
+      "preferences": [
+        "通勤",
+        "低调设计",
+        "肩背"
+      ],
+      "contact_permission": "allowed"
+    },
+    "conversation_history": [
+      {
+        "speaker": "advisor",
+        "content": "您上次关注的云影肩包，您更想了解哪方面？",
+        "timestamp": "2026-11-03T13:55:00+08:00"
+      },
+      {
+        "speaker": "client",
+        "content": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？",
+        "timestamp": "2026-11-03T13:58:00+08:00"
+      }
+    ],
+    "products": [
+      {
+        "id": "LX-P001",
+        "name": "云影肩包",
+        "price": 18000,
+        "currency": "CNY",
+        "material": "全粒面小牛皮",
+        "color": "墨灰",
+        "carry_options": [
+          "肩背"
+        ]
+      }
+    ],
+    "scenario_context": {
+      "target_product_id": "LX-P001",
+      "objection_type": "discount_request",
+      "objection_text": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？"
+    }
+  },
+  "candidate_replies": [
+    {
+      "id": "option_1",
+      "text": "理解您对价格的顾虑，云影肩包定价为18000元，主要在于全粒面小牛皮和墨灰的低调质感，肩背使用也很顺手。目前没有可承诺的额外折扣。"
+    },
+    {
+      "id": "option_2",
+      "text": "您喜欢这只云影肩包，但觉得18000元偏高，这个感受我理解。它是全粒面小牛皮、墨灰配色，偏通勤和肩背使用；如果您愿意，我可以继续帮您看更贴近日常需求的选择。"
+    },
+    {
+      "id": "option_3",
+      "text": "关于九折，目前我这边没有可直接承诺的优惠。云影肩包是18000元，材质为全粒面小牛皮，颜色墨灰，定位偏低调通勤；若您想先缓一缓，也完全可以。"
+    }
+  ],
+  "generation": {
+    "source": "live",
+    "model": "openai/gpt-5.4-mini",
+    "response_id": "gen-1793734046-MisbgzLGFDgi5SlHqMtj",
+    "run_id": "20261103T192726160478Z_4116e847afb3",
+    "recorded_at": "2026-11-03T19:27:26.162456+00:00",
+    "tool_version": "0.1.0",
+    "prompt_version": "1.0.0",
+    "input_sha256": "3dac261df65f0add2156a3bf6c7763471349ce2766894e1cab123d8ffdb5aa34",
+    "raw_response_content_sha256": "fd2c198c1d313002e04157ab3b235a844cec659da796961b17c825e40b7c371c",
+    "original_file_sha256": {
+      "input.json": "a8f12af0abde12b469c0a9cf25d8f966eacca764c413a88cb30de7d8272b2e21",
+      "attempt_01.json": "77f0f10a7f72677deaa7f874d5f073276c55075dc63d3d174c4e2d291357bab9",
+      "result.json": "9571d6635cc30e461b4523b92038da6609a4c1baa365e762bf2b74a0f1af89d8"
+    }
+  },
+  "validation": {
+    "original_status": "error",
+    "original_error_code": "OUTPUT_INVALID",
+    "original_errors": [
+      "option_3: DISCOUNT_UNAUTHORIZED 不得承诺、暗示或代为申请未授权优惠"
+    ],
+    "accepted": false,
+    "human_review": "pending",
+    "sent_to_client": false
+  }
+}

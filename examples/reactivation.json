@@ -1,0 +1,28 @@
+{
+  "request_id": "EXAMPLE-A",
+  "brand_id": "lanxu",
+  "scenario": "reactivation",
+  "reference_time": "2026-11-03T14:00:00+08:00",
+  "client": {
+    "id": "fictional-example-a",
+    "preferred_name": "周女士",
+    "preferences": [
+      "通勤",
+      "低调设计",
+      "肩背"
+    ],
+    "contact_permission": "allowed",
+    "relationship_level": "曾多次交流"
+  },
+  "conversation_history": [
+    {
+      "speaker": "client",
+      "content": "上次聊的设计我记下了，有需要会再了解。",
+      "timestamp": "2026-09-01T11:00:00+08:00"
+    }
+  ],
+  "products": [],
+  "scenario_context": {
+    "last_interaction_at": "2026-09-01T11:00:00+08:00"
+  }
+}

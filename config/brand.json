@@ -1,0 +1,66 @@
+{
+  "brand_id": "lanxu",
+  "name": "岚序 LANXU",
+  "brand_rules_version": "1.0.0",
+  "category": "虚构高端皮具",
+  "audience": "重视设计、日常使用适配和服务体验的成年客户",
+  "voice": [
+    "克制",
+    "自然",
+    "礼貌",
+    "依据已知亲疏程度表达"
+  ],
+  "max_message_chars": 160,
+  "target_message_chars": [
+    30,
+    100
+  ],
+  "extra_discounts_allowed": false,
+  "allowed_services": [
+    "预约试背"
+  ],
+  "forbidden_claims": [
+    "未经授权的折扣",
+    "未提供的库存或稀缺性",
+    "未提供的礼品",
+    "未提供的维修或保修承诺",
+    "未提供的护理步骤",
+    "竞品或其他渠道的真伪判断",
+    "未提供的客户年龄或家庭状况",
+    "保值升值保证",
+    "制造紧迫或购买压力"
+  ],
+  "scenario_rules": {
+    "greeting": [
+      "问候不强塞商品",
+      "不推断年龄",
+      "日期表述依据 reference_time"
+    ],
+    "product_recommendation": [
+      "仅使用已知商品",
+      "以最新明确偏好为准",
+      "不保证一定适合"
+    ],
+    "post_purchase_care": [
+      "只跟进明确已购商品",
+      "无护理资料时询问体验",
+      "不借机施压复购"
+    ],
+    "reactivation": [
+      "不猜失联原因",
+      "不责备客户未到店",
+      "下一步轻量且可拒绝"
+    ],
+    "event_invitation": [
+      "准确提供已知活动信息",
+      "不编造礼品或名额",
+      "不设购买义务"
+    ],
+    "price_objection": [
+      "尊重价格顾虑",
+      "仅使用正式价格与币种",
+      "不承诺额外折扣",
+      "不贬低其他渠道"
+    ]
+  }
+}

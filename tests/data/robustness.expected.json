@@ -1,0 +1,117 @@
+{
+  "dataset_version": "fictional-inputs-1.0.0",
+  "cases": [
+    {
+      "case_id": "ROBUST-MISSING-PRICE",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "价格异议缺正式价格及币种"
+    },
+    {
+      "case_id": "ROBUST-UNKNOWN-PRODUCT",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "目标商品引用不存在"
+    },
+    {
+      "case_id": "ROBUST-CONTACT-BLOCKED",
+      "status": "blocked",
+      "error_code": "CONTACT_BLOCKED",
+      "expected_model_calls": 0,
+      "reason": "明确 do_not_contact"
+    },
+    {
+      "case_id": "ROBUST-HISTORY-OPTOUT",
+      "status": "blocked",
+      "error_code": "CONTACT_BLOCKED",
+      "expected_model_calls": 0,
+      "reason": "客户历史明确拒绝继续联系"
+    },
+    {
+      "case_id": "ROBUST-MISSING-OCCASION",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "问候缺场合日期"
+    },
+    {
+      "case_id": "ROBUST-NO-PRODUCTS",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "推荐无已知商品"
+    },
+    {
+      "case_id": "ROBUST-MISSING-PURCHASE",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "关怀缺明确已购记录"
+    },
+    {
+      "case_id": "ROBUST-MISSING-LAST-CONTACT",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "唤醒缺已知最后联系或购买时间"
+    },
+    {
+      "case_id": "ROBUST-MISSING-EVENT-TIME",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "活动缺开始时间"
+    },
+    {
+      "case_id": "ROBUST-EXPIRED-EVENT",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "活动已经过期"
+    },
+    {
+      "case_id": "ROBUST-NAIVE-TIME",
+      "status": "needs_input",
+      "error_code": "INPUT_INVALID",
+      "expected_model_calls": 0,
+      "reason": "业务时间没有时区"
+    },
+    {
+      "case_id": "ROBUST-UNKNOWN-FIELD",
+      "status": "needs_input",
+      "error_code": "INPUT_INVALID",
+      "expected_model_calls": 0,
+      "reason": "拒绝输入覆盖品牌政策的未知字段"
+    },
+    {
+      "case_id": "ROBUST-DUPLICATE-PRODUCT",
+      "status": "needs_input",
+      "error_code": "INPUT_INVALID",
+      "expected_model_calls": 0,
+      "reason": "商品 ID 不唯一"
+    },
+    {
+      "case_id": "ROBUST-INVALID-AMOUNT",
+      "status": "needs_input",
+      "error_code": "INPUT_INVALID",
+      "expected_model_calls": 0,
+      "reason": "负金额不合法"
+    },
+    {
+      "case_id": "ROBUST-HISTORY-OVERLIMIT",
+      "status": "needs_input",
+      "error_code": "INPUT_INVALID",
+      "expected_model_calls": 0,
+      "reason": "31 条历史超限，不静默截断"
+    },
+    {
+      "case_id": "ROBUST-FUTURE-HISTORY",
+      "status": "needs_input",
+      "error_code": "MISSING_FACTS",
+      "expected_model_calls": 0,
+      "reason": "历史时间晚于业务参考时间"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "recorded_at": "2026-11-08T01:27:02.985887+00:00",
+  "tool_version": "0.3.1",
+  "source_sha256": "52648b3d758896433cf65cc1391a502482d8fd81b3cb05b27a5dbd75b29c096a",
+  "record_type": "gemini_developer_api_test_status",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "base_url": "https://generativelanguage.googleapis.com/v1beta",
+  "credentials_configured": true,
+  "model_discovery": {
+    "recorded_at": "2026-11-08T01:22:09.515369+00:00",
+    "provider": "gemini",
+    "base_url": "https://generativelanguage.googleapis.com/v1beta",
+    "http_status": 200,
+    "model": "gemini-3.1-flash-lite",
+    "generation_calls": 0,
+    "selected_model_listed": true,
+    "generate_content_supported": true
+  },
+  "live_generation_status": "success",
+  "run_id": "20261108T012415064609Z_a063e38f6ae9",
+  "generation_calls": 1,
+  "http_status": 200,
+  "error_code": null,
+  "google_error_status": null,
+  "google_error_reasons": [],
+  "candidate_count": 3,
+  "token_usage": {
+    "prompt_tokens": 2240,
+    "completion_tokens": 277,
+    "total_tokens": 2517
+  },
+  "response_ids": [
+    "P8_vapKBOryKytMP8b69-Q0"
+  ],
+  "human_review": "pending",
+  "provider_reported_cost": null,
+  "cost_note": "No billed amount returned. Published Free Tier has quotas; not an invoice.",
+  "model_selection": {
+    "basis": "Cost-first stable text model; language quality still requires live evaluation",
+    "standard_free_tier": "Free input/output within project quotas",
+    "paid_standard_usd_per_million_input_tokens": "0.25",
+    "paid_standard_usd_per_million_output_tokens": "1.50",
+    "billing_note": "Published rate snapshot, not measured usage or an invoice",
+    "pricing_source": "https://ai.google.dev/gemini-api/docs/pricing"
+  }
+}

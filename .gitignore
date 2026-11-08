@@ -1,0 +1,32 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+.pytest_cache/
+*.pyc
+runs/
+.coverage
+htmlcov/
+# The original confidential brief and internal handoff stay local.
+*.pdf
+Artefact_Implementation_Handoff_Plan_2026-11-03.md
+# User-managed reports and local archives are outside the project source.
+.local/
+artifacts/
+dist/
+reports/
+submission/
+# Google credentials remain local even when a path points inside the workspace.
+credentials/
+secrets/
+*service-account*.json
+application_default_credentials.json
+# Only fictional advisor/customer conversations belong in shared evidence.
+evidence/*
+!evidence/README.md
+!evidence/simulated_conversations/
+!evidence/simulated_screenshots/

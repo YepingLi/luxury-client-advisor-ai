@@ -1,0 +1,48 @@
+{
+  "request_id": "EXAMPLE-R",
+  "brand_id": "lanxu",
+  "scenario": "product_recommendation",
+  "reference_time": "2026-11-03T14:00:00+08:00",
+  "client": {
+    "id": "fictional-example-r",
+    "preferred_name": "周女士",
+    "preferences": [
+      "肩背",
+      "墨灰"
+    ],
+    "contact_permission": "allowed",
+    "relationship_level": "曾多次交流"
+  },
+  "conversation_history": [
+    {
+      "speaker": "client",
+      "content": "想了解一下肩背的款式，颜色希望偏墨灰。",
+      "timestamp": "2026-11-01T10:00:00+08:00"
+    }
+  ],
+  "products": [
+    {
+      "id": "LX-P001",
+      "name": "云影肩包",
+      "price": 18000,
+      "currency": "CNY",
+      "material": "全粒面小牛皮",
+      "color": "墨灰",
+      "carry_options": [
+        "肩背"
+      ],
+      "dimensions": "28 × 18 × 9 厘米",
+      "features": [
+        "翻盖结构"
+      ],
+      "care_instructions": [
+        "避免长时间阳光直射",
+        "日常以柔软干布轻拭"
+      ]
+    }
+  ],
+  "scenario_context": {
+    "target_product_id": "LX-P001",
+    "usage_occasion": "日常通勤"
+  }
+}

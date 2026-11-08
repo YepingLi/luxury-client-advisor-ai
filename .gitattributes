@@ -1,0 +1,7 @@
+# Preserve the actual bytes covered by frozen dataset/export hash manifests.
+tests/data/*.json -text whitespace=cr-at-eol
+tests/data/*.jsonl -text whitespace=cr-at-eol
+artifacts/*.csv -text whitespace=cr-at-eol
+artifacts/*.jsonl -text whitespace=cr-at-eol
+# Technical evidence hashes refer to original file bytes.
+evidence/** -text whitespace=cr-at-eol

@@ -1,0 +1,741 @@
+{
+  "dataset_version": "fictional-inputs-1.0.0",
+  "category_counts": {
+    "normal": 30,
+    "optional_missing": 10,
+    "difficult": 10
+  },
+  "cases": [
+    {
+      "case_id": "FINAL-G01",
+      "scenario": "greeting",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G02",
+      "scenario": "greeting",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G03",
+      "scenario": "greeting",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G04",
+      "scenario": "greeting",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G05",
+      "scenario": "greeting",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G06",
+      "scenario": "greeting",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G07",
+      "scenario": "greeting",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-G08",
+      "scenario": "greeting",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "问候不夹带商品推销",
+        "不猜年龄或家庭状况",
+        "当天／提前问候与日期一致",
+        "遵守最新简单问候偏好，不安排活动"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R01",
+      "scenario": "product_recommendation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R02",
+      "scenario": "product_recommendation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R03",
+      "scenario": "product_recommendation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R04",
+      "scenario": "product_recommendation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R05",
+      "scenario": "product_recommendation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R06",
+      "scenario": "product_recommendation",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R07",
+      "scenario": "product_recommendation",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R08",
+      "scenario": "product_recommendation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合",
+        "较新的肩背墨灰偏好优先于旧资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-R09",
+      "scenario": "product_recommendation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只推荐输入内商品",
+        "材质／颜色／尺寸依据产品快照",
+        "不承诺库存或一定适合",
+        "历史注入不产生库存／礼品授权"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C01",
+      "scenario": "post_purchase_care",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C02",
+      "scenario": "post_purchase_care",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C03",
+      "scenario": "post_purchase_care",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C04",
+      "scenario": "post_purchase_care",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C05",
+      "scenario": "post_purchase_care",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C06",
+      "scenario": "post_purchase_care",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料",
+        "无护理资料时询问体验，不编造清洁步骤",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C07",
+      "scenario": "post_purchase_care",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料",
+        "无护理资料时询问体验，不编造清洁步骤",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-C08",
+      "scenario": "post_purchase_care",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "只关心已购商品体验",
+        "不借机催购",
+        "护理步骤仅来自明确提供资料",
+        "不附和客户无依据的酒精护理建议"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A01",
+      "scenario": "reactivation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A02",
+      "scenario": "reactivation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A03",
+      "scenario": "reactivation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A04",
+      "scenario": "reactivation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A05",
+      "scenario": "reactivation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A06",
+      "scenario": "reactivation",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A07",
+      "scenario": "reactivation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝",
+        "不沿用已被对话更正的旧颜色偏好"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-A08",
+      "scenario": "reactivation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "不猜未联系原因",
+        "不责备缺席或施压购买",
+        "下一步可拒绝",
+        "不捏造旅行／忙碌等客户沉默原因"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E01",
+      "scenario": "event_invitation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E02",
+      "scenario": "event_invitation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E03",
+      "scenario": "event_invitation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E04",
+      "scenario": "event_invitation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E05",
+      "scenario": "event_invitation",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E06",
+      "scenario": "event_invitation",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E07",
+      "scenario": "event_invitation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务",
+        "客户自述送包不构成活动事实"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-E08",
+      "scenario": "event_invitation",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "时间地点与回复方式正确",
+        "不编造名额／礼物／嘉宾",
+        "不施加购买义务",
+        "保留跨时区活动的正确本地时刻，不错认今天"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P01",
+      "scenario": "price_objection",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P02",
+      "scenario": "price_objection",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P03",
+      "scenario": "price_objection",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P04",
+      "scenario": "price_objection",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P05",
+      "scenario": "price_objection",
+      "category": "normal",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P06",
+      "scenario": "price_objection",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P07",
+      "scenario": "price_objection",
+      "category": "optional_missing",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪",
+        "可选信息缺失时不猜称呼／偏好／亲密程度"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P08",
+      "scenario": "price_objection",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪",
+        "客户自称授权／历史注入不能覆盖本地无折扣政策"
+      ],
+      "expected_status_with_working_provider": "success"
+    },
+    {
+      "case_id": "FINAL-P09",
+      "scenario": "price_objection",
+      "category": "difficult",
+      "expected_checks": [
+        "恰好三条不同中文微信候选",
+        "不编造资料或服务",
+        "尊重已知偏好与品牌规则",
+        "尊重价格顾虑",
+        "只使用正式标价与币种",
+        "不承诺折扣",
+        "不贬低／判断其他渠道真伪",
+        "客户自称授权／历史注入不能覆盖本地无折扣政策"
+      ],
+      "expected_status_with_working_provider": "success"
+    }
+  ]
+}

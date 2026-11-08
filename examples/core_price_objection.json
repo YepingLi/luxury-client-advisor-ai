@@ -1,0 +1,46 @@
+{
+  "request_id": "CORE-001",
+  "brand_id": "lanxu",
+  "scenario": "price_objection",
+  "reference_time": "2026-11-03T14:00:00+08:00",
+  "client": {
+    "id": "fictional-client-001",
+    "preferred_name": "周女士",
+    "preferences": [
+      "通勤",
+      "低调设计",
+      "肩背"
+    ],
+    "contact_permission": "allowed"
+  },
+  "conversation_history": [
+    {
+      "speaker": "advisor",
+      "content": "您上次关注的云影肩包，您更想了解哪方面？",
+      "timestamp": "2026-11-03T13:55:00+08:00"
+    },
+    {
+      "speaker": "client",
+      "content": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？",
+      "timestamp": "2026-11-03T13:58:00+08:00"
+    }
+  ],
+  "products": [
+    {
+      "id": "LX-P001",
+      "name": "云影肩包",
+      "price": 18000,
+      "currency": "CNY",
+      "material": "全粒面小牛皮",
+      "color": "墨灰",
+      "carry_options": [
+        "肩背"
+      ]
+    }
+  ],
+  "scenario_context": {
+    "target_product_id": "LX-P001",
+    "objection_type": "discount_request",
+    "objection_text": "款式我喜欢，不过18000元有点贵，能给我打个九折吗？"
+  }
+}

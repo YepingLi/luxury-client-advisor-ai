@@ -1,0 +1,35 @@
+{
+  "request_id": "EXAMPLE-E",
+  "brand_id": "lanxu",
+  "scenario": "event_invitation",
+  "reference_time": "2026-11-03T14:00:00+08:00",
+  "client": {
+    "id": "fictional-example-e",
+    "preferred_name": "周女士",
+    "preferences": [
+      "通勤",
+      "低调设计",
+      "肩背"
+    ],
+    "contact_permission": "allowed",
+    "relationship_level": "曾多次交流"
+  },
+  "conversation_history": [
+    {
+      "speaker": "client",
+      "content": "有设计或材质交流的活动可以介绍给我。",
+      "timestamp": "2026-11-01T10:00:00+08:00"
+    }
+  ],
+  "products": [],
+  "scenario_context": {
+    "event": {
+      "name": "岚序线条私享预览",
+      "starts_at": "2026-11-05T15:00:00+08:00",
+      "ends_at": "2026-11-05T17:00:00+08:00",
+      "location": "岚序云庭店二层会客室（虚构地点）",
+      "rsvp_method": "如有兴趣，直接回复这条微信告知方便的到店时间",
+      "description": "交流皮具线条与材质设计，无购买要求"
+    }
+  }
+}

@@ -1,0 +1,547 @@
+{
+  "recorded_at": "2026-11-08T01:27:02.985887+00:00",
+  "tool_version": "0.3.1",
+  "source_sha256": "52648b3d758896433cf65cc1391a502482d8fd81b3cb05b27a5dbd75b29c096a",
+  "record_type": "input_preflight_only",
+  "dataset": "tests/data/final_50.jsonl",
+  "dataset_sha256": "2b72058ebbc1db6bb85c7a7befd271dfc231748a89209677813c634e8670bdd7",
+  "command": "python -X utf8 -m ca_tool.batch --input tests/data/final_50.jsonl --preflight",
+  "case_count": 50,
+  "ready_count": 50,
+  "provider_calls": 0,
+  "live_generated_case_count": 0,
+  "entries": [
+    {
+      "case_id": "FINAL-G01",
+      "scenario": "greeting",
+      "input_sha256": "13f5265642932ee28fc57a610e6818d6966bf5e55ec7115d37262a4205643472",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G02",
+      "scenario": "greeting",
+      "input_sha256": "a48e7660737639cdfbd99889fa3846131b1ca96442d156018c2f7a880f258cce",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G03",
+      "scenario": "greeting",
+      "input_sha256": "e1a27ff4c059c67c94d41e41e01837145c7d945ba00bf131092600a619121c7a",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G04",
+      "scenario": "greeting",
+      "input_sha256": "8eeeb915e9d55a9a0f86cdfaa7743648eae5dc2db1400c271696823054ea979b",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G05",
+      "scenario": "greeting",
+      "input_sha256": "5066785d8d53b0f0f06cdaefb23500660aa86876459a2cdb6a1763a7b7fafc4b",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G06",
+      "scenario": "greeting",
+      "input_sha256": "72953ea604536ea5a21391bf461749aa8bcce346253c6d53308330b726de1a4e",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G07",
+      "scenario": "greeting",
+      "input_sha256": "61a04ef96ee6f35b9a03c739346909e2f7a53beb5dc55153aeb40176fe8e5f2d",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-G08",
+      "scenario": "greeting",
+      "input_sha256": "3056eb9d547d6dd5c55a21a3b71b7d7fe639f6b4c77ae3048e5c08d4d2245883",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R01",
+      "scenario": "product_recommendation",
+      "input_sha256": "2e824e8dd0d211ece19d03674c85e0a8561687f31734d0831ae7497e178ad355",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R02",
+      "scenario": "product_recommendation",
+      "input_sha256": "5f22de4c5aa53735801580a47c534914cce59988f4e0aef9e4199a13e08908c0",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R03",
+      "scenario": "product_recommendation",
+      "input_sha256": "2c1a109d5ab0d81e30e023ecfafb4ed07aa5b5ee7c68bb1655f669ee008642b1",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R04",
+      "scenario": "product_recommendation",
+      "input_sha256": "bc88aa522476ef263c993dc5f31c5c40c73548b27edcf3b5595262d4ec5d9de0",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R05",
+      "scenario": "product_recommendation",
+      "input_sha256": "e530b83fb284242e8187d511d5a35d29d60e9ac7bc0e3497fefe32cb898dcede",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R06",
+      "scenario": "product_recommendation",
+      "input_sha256": "b0f526a93363ca15dfb5d7c42b63f78468391beab362b6d050da6490ab7f937c",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R07",
+      "scenario": "product_recommendation",
+      "input_sha256": "bf45bfcb87eb24a9d5e3718e5d9c8822365e69d9866af98ae3c8ef0b26041ad5",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R08",
+      "scenario": "product_recommendation",
+      "input_sha256": "c619121012e4acd8a150368954f09dc1206be5fadcaf323da6a60af85c2425c3",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-R09",
+      "scenario": "product_recommendation",
+      "input_sha256": "3cfa70d148f622b17516d265dba6d5b283d8ae57d97b2261836c0a5d986dbfd1",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C01",
+      "scenario": "post_purchase_care",
+      "input_sha256": "44406bd6fc69fa97e96ebeb6e0f37f803176806df1eda41332ea87c2ba5ce0d0",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C02",
+      "scenario": "post_purchase_care",
+      "input_sha256": "66862cf666936aae807a7e4bc153452edea58bf3a979b4eb46fd3a82a427944f",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C03",
+      "scenario": "post_purchase_care",
+      "input_sha256": "1e18050621d5219a2ba3a61bb1a674103d3dda2ffbde5687d8d88ca195c0244b",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C04",
+      "scenario": "post_purchase_care",
+      "input_sha256": "b5f67e38fd11647c7f5e4f4a84723d585f7e59e28927a0f8a882ab0887e13003",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C05",
+      "scenario": "post_purchase_care",
+      "input_sha256": "b581dbc2abf471f9f4955ba8e7b49baa2fcdc7fda43eba164e5adf97734157de",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供该商品护理资料；只能询问使用体验，不给出具体护理步骤。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C06",
+      "scenario": "post_purchase_care",
+      "input_sha256": "3b42f035f476cb4872c0730e7801a2cbadf5b049d056b833dbf6b29fba61975c",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供该商品护理资料；只能询问使用体验，不给出具体护理步骤。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C07",
+      "scenario": "post_purchase_care",
+      "input_sha256": "e668131c781f84122f728052a2d63aa73fb9acc66dead8d422c05abeb0f7b84a",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供该商品护理资料；只能询问使用体验，不给出具体护理步骤。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-C08",
+      "scenario": "post_purchase_care",
+      "input_sha256": "283853178f8a6a433bc5a038358a7d26e071ed0283d2fe3b71c132057801f86d",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A01",
+      "scenario": "reactivation",
+      "input_sha256": "cc506c04aa415f7a699059725cdf39c741dbba55c4b67caced2f3f1cda436671",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A02",
+      "scenario": "reactivation",
+      "input_sha256": "b18896df057184e969bd631b8a279702dbeef53b9102b4610715894c1493c57b",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A03",
+      "scenario": "reactivation",
+      "input_sha256": "8348090724d6fb3d818ba9b91d5ca1d5c7407cdc6a8a2f5b38c09cf72375ee9e",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A04",
+      "scenario": "reactivation",
+      "input_sha256": "525876a022f3bc51e8d42fdf034ee89c193bb92a86fedd37d421f7c01844d117",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A05",
+      "scenario": "reactivation",
+      "input_sha256": "163c5beba4ef015492d4078cd96c0164ee2966bcdfdafc6fa3c2079422ba68b8",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A06",
+      "scenario": "reactivation",
+      "input_sha256": "49333cbff4930a72ca6fb6d03e9df179fb471f41541994b62ab6a6089f436a8e",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A07",
+      "scenario": "reactivation",
+      "input_sha256": "93df8aa33158f9281a2b5425998f8945f8d41a185be9f7a1a1d846da53469f63",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-A08",
+      "scenario": "reactivation",
+      "input_sha256": "bab17baabb7e192b8e76600277f12b27d88d9d83a486d432839ae4743d0ea7fe",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E01",
+      "scenario": "event_invitation",
+      "input_sha256": "9538650799e57a8e560ca8e650b934b9a75834b7b05832d2d1ac12fb1000320d",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E02",
+      "scenario": "event_invitation",
+      "input_sha256": "0f1e40d9fc11b765cef96d7a4cefe5a4e09091506c311fac4996006a0a1dac7d",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E03",
+      "scenario": "event_invitation",
+      "input_sha256": "8307f6134a3cb7624d27d13afe91910381f3cc5474cfa8229370da4f897f6d3b",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E04",
+      "scenario": "event_invitation",
+      "input_sha256": "905e051325f092220e59a6619dd8d82e7739e7250cecb6311ec4d77fcdc54876",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E05",
+      "scenario": "event_invitation",
+      "input_sha256": "81c5a55bdfb42a43c197a074ef16bb41de0c92a10c4b5c283134d36ba9972482",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E06",
+      "scenario": "event_invitation",
+      "input_sha256": "e14ad6d3986006eef7668441755ebed5ec6532b878a237aea2886aa01cba27d7",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E07",
+      "scenario": "event_invitation",
+      "input_sha256": "b0bc0b76b0cb68abc67641b15a16712a93878bada35f8c83379c2d8e6ea67a73",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-E08",
+      "scenario": "event_invitation",
+      "input_sha256": "54a22a421a76e47de85a7d06510a19453da4e6ebfc4d4f2d6e04907125cfea6d",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P01",
+      "scenario": "price_objection",
+      "input_sha256": "7d37ccfd5ea0d4c4e86c10683c12a20aff634cb1c1ec0cefe84e1bb271678f6d",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P02",
+      "scenario": "price_objection",
+      "input_sha256": "0526f4e1fc2f170be25e8b535ee3ae0bb764c01388dd115ad0ba92775dec1ad4",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P03",
+      "scenario": "price_objection",
+      "input_sha256": "d47166beaabc030a5409e1974a7f84114bba8cd388e0ce5b00a360cc1acc867e",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P04",
+      "scenario": "price_objection",
+      "input_sha256": "dfae44cb83295cc15057e0791e54dd8e5c7ac3ddd316824b35dbf1f0ea510ab2",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P05",
+      "scenario": "price_objection",
+      "input_sha256": "1124f7307977b132872f1d5ce46a767b1c90d6663baf45f8564fa8dc4c3518eb",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P06",
+      "scenario": "price_objection",
+      "input_sha256": "1e30e8aa427fb834779441c3bae096735a13f4c81438559b6fabf81df8bc4c7a",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P07",
+      "scenario": "price_objection",
+      "input_sha256": "86f6b238e73c0ea596f5f442de5a8b951d74d2e34ff2bb3ca64e8bde5c0ef5b1",
+      "input_validation_status": "ready",
+      "warnings": [
+        "未提供称呼；省略称呼，不推断性别或年龄。",
+        "未提供偏好；仅使用已知事实，不推断喜好。"
+      ],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P08",
+      "scenario": "price_objection",
+      "input_sha256": "8d5501badde5bbff85a332d983ea2ac9d07a431a18684c9e11cddadf301ff139",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    },
+    {
+      "case_id": "FINAL-P09",
+      "scenario": "price_objection",
+      "input_sha256": "9a4d1dcb531423266bf26e75e7ae67c89bc733f0403b2777f4071c733ca06a31",
+      "input_validation_status": "ready",
+      "warnings": [],
+      "error": null,
+      "live_generation_status": "not_run",
+      "candidate_output_count": 0
+    }
+  ]
+}
